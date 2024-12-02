@@ -1,15 +1,18 @@
 # 軟體開發
 ## [2024-12-02 雁行計畫 微處理器系統](https://www.canva.com/design/DAGXik4geYs/agOZm04OFkar4gWpl0Ypbg/view?utm_content=DAGXik4geYs&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 ### Google Colab 實際操作(簡報:p35-p38)
-
+```
+無 CLI 指令操作
+```
 ### 原生系統下的版本控制實際操作(簡報:p39-p43)
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email <Your Email>
 ```
-
 ### 原生系統下運行虛擬化技術的軟體實際操作(簡報:p47-p50)
-
+```
+無 CLI 指令操作
+```
 ### Debian/Ubuntu 安裝 docker.io (簡報:p51-p57)
 #### 更新與升級套件，並安裝 docker.io
 ```bash
