@@ -1,0 +1,15 @@
+FROM ubuntu:24.04
+
+# 更新與升級套件，並安裝 python3
+RUN apt update && apt upgrade -y && apt install -y python3 python3-pip git
+
+# 建立工作目錄
+RUN mkdir /workspace
+
+# 設定初始工作目錄
+WORKDIR /workspace
+
+COPY test_copy.txt /workspace/copied.txt
+
+# 設定容器啟動時執行的指令
+CMD ["echo", "Hello, World!"]
