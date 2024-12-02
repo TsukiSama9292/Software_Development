@@ -1,9 +1,9 @@
-services:
-  nginx-offical:
-    image: nginx:latest
-    ports:
+services: # 啟動服務
+  nginx-offical: # 服務名稱
+    image: nginx:latest # 鏡像名稱
+    ports: # 端口映射
       - 80:80
-  nginx-ubuntu:
-    image: ubuntu/nginx:latest
-    ports:
+  nginx-ubuntu: # 服務名稱  
+    image: ubuntu/nginx:latest # 鏡像名稱
+    ports: # 端口映射
       - 8000:80
