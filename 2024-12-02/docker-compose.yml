@@ -1,0 +1,9 @@
+services:
+  nginx-offical:
+    image: nginx:latest
+    ports:
+      - 80:80
+  nginx-ubuntu:
+    image: ubuntu/nginx:latest
+    ports:
+      - 8000:80
